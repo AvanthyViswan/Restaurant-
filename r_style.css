@@ -20,26 +20,30 @@
 
 .nav-flex-row li a {
     font-family: 'Big Shoulders Text', cursive;
-    color: #0c0000;
+    color: #ce8f8f;
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: 300;
 }
 
 .section-intro {
-    height: 820px;
-    background: url('https://images.pexels.com/photos/299348/pexels-photo-299348.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    height: 626px;
+    background: url('https://img.freepik.com/free-photo/various-vegetables-black-table-with-space-message_1220-616.jpg?size=626&ext=jpg&ga=GA1.2.231040245.1680093066&semt=ais');
     background-size: cover;
     display: flex;
-    position:relative;
+    position:initial;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .section-intro h1 {
-    text-align: center;
-    color: #051220;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    text-decoration: wavy;
+    text-decoration-style: wavy;
+    text-shadow: #f1a5bc;
+    color: #c7a2ad;
     font-size: 4em;
     font-weight: 700;
 }
@@ -92,7 +96,14 @@ a.link-to-book:hover {
 }
 
 .carousel-inner {
-    height: 700px;
+    height: 500px;
+    width: 500px;
+    flex-direction:column;
+    display: flex;
+    flex: 1;
+    padding: 3px;
+    border: 2px solid rgb(56, 24, 55);
+
 }
 
 .row-flex {
@@ -125,11 +136,11 @@ a.link-to-book:hover {
 .contact-adress {
     flex: 1;
     margin: 30px 20px;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .form-group p {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .opening-time p span,
@@ -149,7 +160,13 @@ a.link-to-book:hover {
     }
 
     .carousel-inner {
-        height: auto;
+        height: 500px;
+        width: 400px;
+        flex-direction:column;
+        display: flex;
+        flex: 3;
+        padding: 3px;
+        border: 2px solid rgb(56, 24, 55);
     }
 
     .row-flex {
