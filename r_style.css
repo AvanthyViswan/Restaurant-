@@ -27,7 +27,7 @@
 }
 
 .section-intro {
-    height: 626px;
+    height: 700px;
     background: url('https://img.freepik.com/free-photo/various-vegetables-black-table-with-space-message_1220-616.jpg?size=626&ext=jpg&ga=GA1.2.231040245.1680093066&semt=ais');
     background-size: cover;
     display: flex;
@@ -63,10 +63,10 @@
 .about-section {
     display: flex;
     align-items: center;
-    text-align: center;
+    text-align: left;
     background-color: #f3f3f3c0;
-    padding: 50px 50px;
-    top: 50%;
+    padding: 100px 250px;
+    top: 5%;
     position:relative;
     flex-direction: column;
     justify-content: center;
@@ -87,12 +87,12 @@ a.link-to-book:hover {
 
 .about-section p,
 .about-section h3 {
-    text-align: center;
-    width: 60%;
-    margin: auto;
+    text-align:justify;
+    width: 120%;
+    margin:3rem;
     font-family: 'Big Shoulders Text', cursive;
     font-size: 1.8em;
-    text-transform: uppercase;
+    text-transform:capitalize;
 }
 
 .carousel-inner {
@@ -102,7 +102,7 @@ a.link-to-book:hover {
     display: flex;
     flex: 1;
     padding: 3px;
-    border: 2px solid rgb(56, 24, 55);
+    border: 1px solid rgb(56, 24, 55);
 
 }
 
@@ -161,7 +161,7 @@ a.link-to-book:hover {
 
     .carousel-inner {
         height: 500px;
-        width: 400px;
+        width: 500px;
         flex-direction:column;
         display: flex;
         flex: 3;
@@ -195,6 +195,7 @@ a.link-to-book:hover {
 
     .carousel-inner {
         height: auto;
+
     }
 
     .row-flex {
@@ -214,7 +215,8 @@ a.link-to-book:hover {
     .opening-time p span,
     .contact-adress p span {
         font-size: 15px;
-        text-align: center;
+        text-align:right;
+        
     }
 
 }
