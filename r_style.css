@@ -117,13 +117,14 @@ a.link-to-book:hover
 .row-flex {
     display: flex;
     flex-direction: row;
+    height: 300;
 }
 
 .flex-column-form {
     display: flex;
     flex-direction: column;
     flex: 1;
-    margin: 30px 20px;
+    margin: 30px 30px;
 }
 
 .btn.btn-primary {
@@ -227,7 +228,6 @@ a.link-to-book:hover
 
     .carousel-inner {
         height:auto;
-
     }
 
     .row-flex {
