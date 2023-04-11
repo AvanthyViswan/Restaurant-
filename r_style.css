@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
-
+.h2
+{
+    text-align: left;
+    color: #8ac7e4;
+}
+.img{
+    max-width: 100%;  
+    height: auto;
+    object-fit: contain;  
+    box-shadow: #9da3a7;
+}
 
 .nav-flex-row {
     display: flex;
@@ -105,7 +115,7 @@ a.link-to-book:hover
 }
 
 .carousel-inner {
-    height: 650px;
+    height: 750px;
     width: 300%;
     background-color: #350a0a;
     flex-direction:row;
@@ -114,7 +124,12 @@ a.link-to-book:hover
     display:flex;
     flex-wrap: wrap;
     padding: 3px;
+    color: #9da3a7;
     border: 1px solid rgb(236, 224, 236);
+    
+    object-fit:scale-down;
+    object-position:initial;  
+    box-shadow: #fa08a9;
 }
 
 .row-flex {
@@ -195,16 +210,6 @@ a.link-to-book:hover
         flex: 50%;
         padding: 3px;
         border: 2px solid rgb(238, 224, 237);
-    }
-    .flex-item-right{
-        padding: 10px;
-        flex: 50%;
-
-    }
-    .flex-item-left{
-        padding: 10px;
-        flex: 50%;
-
     }
     .row-flex {
         display: flex;
